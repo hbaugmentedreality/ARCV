@@ -16,7 +16,7 @@
     
     <a-scene mindar-image="imageTargetSrc: ./targets.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
-           <video id="VideoEN" preload="auto" src="assets/Video_CV_English.mp4" autoplay="true" loop="false"></video>
+           <video id="VideoEN" src="Video_CV_English.mp4" preload="auto" autoplay="true" loop="false"></video>
         </a-assets>
 
 
@@ -24,7 +24,7 @@
 
         <a-entity mindar-image-target="targetIndex: 0">
 
-            <a-video src="#VideoEN" autoplay="true" loop="false" width="1.01" height="1.01" position="0 0 0"></a-video>
+            <a-video src="#VideoEN" width="1.01" height="1.01" position="0 0 0"></a-video>
               
         </a-entity>
     </a-scene>
